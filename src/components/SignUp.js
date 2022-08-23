@@ -9,7 +9,7 @@ export default function SignUp() {
             name, password, email
         })
             .then((res) => {
-                if (res.status === 200) {
+                if (res.status === 201) {
                     setMsg(res.data.response);
                 }
             })
