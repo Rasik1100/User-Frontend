@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+form {
+  border: 1px black solid;
+  margin: 0 30% 0 30%;
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  color: blue;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid lightgreen;
+}
+
+.hasError {
+  border: 2px solid red;
+}
